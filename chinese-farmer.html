@@ -6,41 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chinese Farmer</title>
-    <style>
-        figure {
-            border: 1px #cccccc solid;
-            width: 40%;
-            margin: unset;
-        }
-        figcaption {
-            background-color: burlywood;
-            color: white;
-            font-style: italic;
-            text-align: center;
-            padding: 2px;
-        }
-        h1 {
-            border-width: 5px;
-            border-color: gray;
-            margin-bottom: 15px;
-            border-style: solid;
-            padding: 5px;
-        }
-        h2 {
-            border-style: dashed;
-            border-color: grey;
-            border-width: 2px;
-            margin-bottom: 10px;
-            margin-top: 10px;
-            padding: 10px;
-        }
-        p {
-            margin-left: 5px;
-        }
-        q {
-            font-style: italic;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="progressive-enhancement.css">
 </head>
 
 <body>
@@ -58,12 +24,51 @@
 </ul>
 
 <h2>The story</h2>
-<p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most unfortunate.” The farmer said, “Maybe.” The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” The farmer again said, “Maybe.”</p>
-<p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, “Oh dear, that’s too bad,” and the farmer responded, “Maybe.” The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, “Isn’t that great!” Again, he said, “Maybe.”
-</p>
+<p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="villagers">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <q class="farmer">Maybe.</q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="villagers">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <q class="farmer">Maybe.</q>
+<p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="villagers">Oh dear, that’s too <em class="bad">bad</em>,</q> and the farmer responded, <q class="farmer">Maybe.</q> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="villagers">Isn’t that great!</q> Again, he said, <q class="farmer">Maybe.</q>
 
 <p><q>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.</q><br>
     <i>- Alan Watts</i></p>
 <hr size="5" noshade>
+
+<p><u>Here is this dialog in the form of a table:</u></p>
+<table>
+    <tr>
+        <th>Event</th>
+        <th><em value="good">Good</em> or <em value="bad">bad</em>?</th>
+    </tr>
+
+    <tr>
+        <th value="white">Lose a horse</th>
+        <th value="grey">Maybe</th>
+    </tr>
+
+    <tr>
+        <th value="grey">Win more horses</th>
+        <th value="white">Maybe</th>
+    </tr>
+
+    <tr>
+        <th value="white">Son injury</th>
+        <th value="grey">Maybe</th>
+    </tr>
+
+    <tr>
+        <th value="grey">Avoid war</th>
+        <th value="white">Maybe</th>
+    </tr>
+</table>
+<p><i>Table representing the farmer's philosophy.</i></p>
+&nbsp;
+<h4>Conclusion</h4>
+<p><em value="good">Good</em> and <em value="bad">bad</em> are just one perspective. Bananas are <em value="good">good</em> for monkeys, but monkeys are not <em value="good">good</em> for bananas. Let's not make a big deal out of it...</p>
+
+&nbsp;
+
+<hr size="10" noshade>
+
+<footer class="copyright">
+    Copyright Just Another Company 2017. All right reserved. Adapted from this article: <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" target="_blank" title="Story of the Chinese Farmer">alan-watts-the-story-of-the-chinese-farmer</a>
+</footer>
 </body>
 </html>
